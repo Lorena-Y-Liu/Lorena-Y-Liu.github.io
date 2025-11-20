@@ -53,7 +53,7 @@ const Hero: React.FC = () => {
                  <span className="font-medium">LinkedIn</span>
                </a>
                 <a href="#" className="group flex items-center justify-center gap-2 px-4 py-3 bg-white text-dark border border-primary/10 rounded-xl hover:border-secondary/50 transition-all shadow-sm hover:-translate-y-0.5">
-                 <University className="w-4 h-4 text-primary" />
+                 <Landmark className="w-4 h-4 text-primary" />
                  <span className="font-medium">WeLight</span>
                </a>
              </div>
