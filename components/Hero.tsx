@@ -25,7 +25,7 @@ const Hero: React.FC = () => {
               scaleOnHover={1.05}
             >
                <img 
-                 src="/public/profile.jpg" 
+                 src="public/profile.jpg" 
                  alt="Yuhui LIU"
                  className="object-cover w-full h-full"
                />
