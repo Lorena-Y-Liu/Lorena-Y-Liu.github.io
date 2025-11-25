@@ -7,7 +7,7 @@ const Hero: React.FC = () => {
   const interests = ["Computational Optics", "Computational Photography", "Optical Design"];
 
   return (
-    <section className="pt-28 pb-16 px-6 md:px-12 max-w-6xl mx-auto relative z-10">
+    <section className="pt-28 pb-16 px-5 md:px-10 max-w-7xl mx-auto relative z-10">
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
         
         {/* LEFT COLUMN: Avatar & Contact (Sticky-ish) */}
