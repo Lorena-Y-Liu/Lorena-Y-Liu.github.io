@@ -161,7 +161,7 @@ const PublicationCard: React.FC<{ pub: Publication; index: number }> = ({ pub, i
 
 const Publications: React.FC = () => {
   return (
-    <section className="py-12 px-5 md:px-10 max-w-6xl mx-auto">
+    <section className="py-12 px-5 md:px-10 max-w-[90rem] mx-auto">
       <motion.div 
         className="mb-10 flex items-end justify-between border-b border-primary/10 pb-4"
         initial={{ opacity: 0 }}
