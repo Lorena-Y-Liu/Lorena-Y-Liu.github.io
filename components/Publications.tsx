@@ -12,9 +12,9 @@ const publications: Publication[] = [
     venue: "CVPR 2025 (Oral)",
     year: "2025",
     abstract: "Co-designing optics and reconstruction algorithm for high-quality RGBD imaging using binocular encoding. We propose a novel end-to-end framework that jointly optimizes the optical encoder and digital decoder.",
-    image: "https://picsum.photos/id/20/800/600",
+    image: "cvpr.png",
     links: [
-      { label: "Abstract", url: "#", icon: "web" },
+      { label: "Website", url: "https://liangxunou.github.io/25liulearned/", icon: "web" },
       { label: "PDF", url: "#", icon: "pdf" },
       { label: "Supp", url: "#", icon: "supp" },
     ],
@@ -27,7 +27,7 @@ const publications: Publication[] = [
     venue: "3D Vision 2026",
     year: "2026",
     abstract: "Thirteenth International Conference on 3D Vision. We introduce structure-grounded loss functions to improve the generalization capability of stereo matching networks across different domains.",
-    image: "https://picsum.photos/id/24/800/600",
+    image: "3dv.png",
     links: [
       { label: "To Be Released", url: "#", icon: "web" }
     ]
@@ -39,9 +39,9 @@ const publications: Publication[] = [
     venue: "The Visual Computer",
     year: "2025",
     abstract: "Recovering both all-in-focus images and dense depth maps to overcome trade-offs in depth of field. The asymmetric focus cues provide rich information for depth estimation.",
-    image: "https://picsum.photos/id/28/800/600",
+    image: "visualcomputer.png",
     links: [
-      { label: "Link", url: "#", icon: "web" }
+      { label: "Paper", url: "https://link-springer-com.eproxy.lib.hku.hk/article/10.1007/s00371-025-04174-3", icon: "web" }
     ]
   },
   {
@@ -51,9 +51,9 @@ const publications: Publication[] = [
     venue: "IEEE TPAMI 2025",
     year: "2025",
     abstract: "Proposed an off-aperture encoding strategy to expand the field-of-view in RGBD imaging systems while maintaining high reconstruction quality. (Unpublished)",
-    image: "https://picsum.photos/id/36/800/600",
+    image: "TPAMI.png",
     links: [
-      { label: "Abstract", url: "#", icon: "web" }
+      { label: "Website", url: "https://whywww.github.io/off-aperture-encoding/", icon: "web" }
     ]
   },
   {
@@ -63,9 +63,9 @@ const publications: Publication[] = [
     venue: "Laser & Optoelectronics Progress",
     year: "2024",
     abstract: "An invited review on state-of-the-art computational spectral imaging techniques and hardware optical encoding strategies.",
-    image: "https://picsum.photos/id/42/800/600",
+    image: "hyperspectral.png",
     links: [
-      { label: "Paper", url: "#", icon: "pdf" }
+      { label: "Paper", url: "https://www.opticsjournal.net/Articles/OJab96e1c63ef455a/FullText", icon: "web" }
     ]
   }
 ];
