@@ -98,7 +98,7 @@ const PublicationCard: React.FC<{ pub: Publication; index: number }> = ({ pub, i
         <div className="flex flex-col h-full bg-white rounded-2xl overflow-hidden border border-primary/10 shadow-sm hover:shadow-2xl hover:shadow-primary/10 transition-all duration-500 group">
           
           {/* Image Section */}
-          <div className="relative h-48 md:h-56 overflow-hidden bg-gray-100">
+          <div className="relative aspect-[16/9] w-full overflow-hidden bg-gray-100 border-b border-primary/5">
             <img 
               src={pub.image} 
               alt={pub.title} 
