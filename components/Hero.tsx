@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { GraduationCap, Landmark, Mail, Linkedin, MapPin } from 'lucide-react';
+import { GraduationCap, Landmark, Mail, Linkedin, MapPin, Github } from 'lucide-react';
 import { TiltCard } from './TiltCard';
 
 const Hero: React.FC = () => {
@@ -51,11 +51,16 @@ const Hero: React.FC = () => {
                <a href="https://www.linkedin.com/in/yuhui-lyu-lorena/" className="group flex items-center justify-center gap-2 px-4 py-3 bg-white text-dark border border-primary/10 rounded-xl hover:border-secondary/50 transition-all shadow-sm hover:-translate-y-0.5">
                  <Linkedin className="w-4 h-4 text-[#0077b5]" />
                  <span className="font-medium">LinkedIn</span>
-               </a>
-                <a href="https://hku.welight.fun/" className="group flex items-center justify-center gap-2 px-4 py-3 bg-white text-dark border border-primary/10 rounded-xl hover:border-secondary/50 transition-all shadow-sm hover:-translate-y-0.5">
-                 <Landmark className="w-4 h-4 text-primary" />
-                 <span className="font-medium">WeLight@HKU</span>
-               </a>
+             <a
+              href="https://github.com/Lorena-Y-Liu"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group flex items-center justify-center gap-2 px-4 py-3 bg-white text-dark border border-primary/10 rounded-xl hover:border-secondary/50 transition-all shadow-sm hover:-translate-y-0.5"
+              >
+              <Github className="w-4 h-4" />
+              <span className="font-medium">GitHub</span>
+             </a>
+
              </div>
              <div className="flex items-center justify-center gap-2 px-4 py-2 text-xs text-primary/50 bg-primary/5 rounded-lg mt-1">
                 <MapPin className="w-3 h-3" />
