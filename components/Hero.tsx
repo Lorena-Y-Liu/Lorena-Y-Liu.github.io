@@ -111,7 +111,7 @@ const Hero: React.FC = () => {
                  <div className="flex items-start gap-3">
                     <div className="p-2 bg-secondary/10 rounded-lg text-secondary"><Landmark className="w-5 h-5" /></div>
                     <div>
-                      <div className="font-bold text-dark">HKU</div>
+                      <div className="font-bold text-dark">WeLight Lab @ HKU</div>
                       <div className="text-sm text-primary/60">Comp. Imaging</div>
                     </div>
                  </div>
